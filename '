@@ -1,0 +1,42 @@
+friendly url added
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   db/.DS_Store
+#	new file:   db/migrate/.DS_Store
+#	new file:   db/migrate/20200302121820_create_articles.rb
+#	new file:   db/migrate/20200303140920_create_comments.rb
+#	new file:   db/migrate/20200309073732_add_slug_to_article.rb
+#	new file:   db/migrate/20200309073742_create_friendly_id_slugs.rb
+#	new file:   db/schema.rb
+#	new file:   db/seeds.rb
+#
+# Untracked files:
+#	.DS_Store
+#	.browserslistrc
+#	.gitignore
+#	Gemfile
+#	Gemfile.lock
+#	README.md
+#	Rakefile
+#	app/
+#	babel.config.js
+#	bin/
+#	config.ru
+#	config/
+#	lib/
+#	log/
+#	package.json
+#	postcss.config.js
+#	public/
+#	storage/
+#	test/
+#	tmp/
+#	vendor/
+#	yarn.lock
+#
