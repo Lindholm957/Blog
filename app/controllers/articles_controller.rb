@@ -11,6 +11,7 @@ class ArticlesController < ApplicationController
     
     def show
         @article = Article.friendly.find(params[:id])
+        @article.update(isChecked: true)
     end
     
     def new
@@ -25,7 +26,7 @@ class ArticlesController < ApplicationController
         @article = Article.new(article_params)
         
         if @article.save
-            redirect_to @article
+            redirect_to articles_path
         else
             render 'new'
         end
